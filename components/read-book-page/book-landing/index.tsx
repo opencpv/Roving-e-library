@@ -43,9 +43,9 @@ const BookLanding = ({ author, reads, points }: BookLandingProps) => {
           Sent to investigate mysterious encounters that are disrupting
           international shipping, Professor Aronnax, his servant Conseil, and
           disgruntled harpooner Ned Land are captured when their frigate is sunk
-          during an encounter with the "monster." The submarine Nautilus and its
+          during an encounter with the &quot;monster.&quot; The submarine Nautilus and its
           eccentric Captain Nemo afford the professor and his companions endless
-          fascination and danger as they're swept along on a yearlong undersea
+          fascination and danger as they&apos;re swept along on a yearlong undersea
           voyage.
         </p>
         <CatalogueText text={"Related Books"} />
