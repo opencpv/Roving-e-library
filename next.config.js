@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["192.168.8.112"],
+    domains: ["192.168.8.112", "roving-library-api.onrender.com"],
   },
 };
 
