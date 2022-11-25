@@ -12,26 +12,28 @@ interface LandingSwiperProps {
 const LandingSwiper = ({ books }: LandingSwiperProps) => {
   const assets = useAssets();
   return (
-    <section className="mt-6 mb-10">
-      <Swiper
-        spaceBetween={5}
-        slidesPerView={2}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-      >
-        <SwiperSlide>
-          <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
-        </SwiperSlide>
-      </Swiper>
-    </section>
+    <>
+      <section className="xl:hidden mt-6 mb-10">
+        <Swiper
+          spaceBetween={5}
+          slidesPerView={2}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+        >
+          <SwiperSlide>
+            <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <LandingSwiperCard title={"Twenty leagues"} img={"my img"} />
+          </SwiperSlide>
+        </Swiper>
+      </section>
+    </>
   );
 };
 
