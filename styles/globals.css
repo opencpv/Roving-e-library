@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-horizontal {
+  bottom: -80px;
+  margin-bottom: -80px;
+  z-index: 99999;
+}
+
